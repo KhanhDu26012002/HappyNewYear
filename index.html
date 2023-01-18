@@ -61,7 +61,10 @@
         <div class="menu hide">
             <div class="menu__inner-wrap">
               <!-- nhạc ở đây -->
-              <audio src="nhac.mp3" type="audio/mp3" autoplay>\</audio>  
+              <audio autoplay >
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="nhac.mp3" type="audio/mpeg">
+              </audio>  
                 <div class="btn btn--bright close-menu-btn">
                     <svg fill="white" width="24" height="24"><use href="#icon-close" xlink:href="#icon-close"></use></svg>
 
@@ -2602,7 +2605,7 @@ body {
 #text1,
 #text2 {
     position: absolute; 
-    top: 70%; /* căn chỉnh chữ lên xuống */
+    top: 95%; /* căn chỉnh chữ lên xuống */
     left: 50%;
     transform: translate(-50%, -50%);
     color: red; /* thay đổi màu chữ tại đây */
